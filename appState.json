@@ -1,0 +1,90 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "7ea8e1f0-5fb8-459c-a19e-1da33655071d": {
+        "id": "7ea8e1f0-5fb8-459c-a19e-1da33655071d",
+        "parent": null,
+        "name": "webhookematic.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "webhookematic.js",
+        "cursor": {
+          "lineNumber": 4,
+          "column": 2
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "webhookematic"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "12f21d54-0d31-4fbe-8578-e3cee8b399c2": {
+        "id": "12f21d54-0d31-4fbe-8578-e3cee8b399c2",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "d32214d9-a8c8-4fed-bac9-d52926c3bf33": {
+        "id": "d32214d9-a8c8-4fed-bac9-d52926c3bf33",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "openFiles": [
+      "7ea8e1f0-5fb8-459c-a19e-1da33655071d"
+    ],
+    "currentFileId": "7ea8e1f0-5fb8-459c-a19e-1da33655071d",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "webhookematic",
+    "projectDescription": "For testing purpose",
+    "projectVersion": "1.0.0",
+    "projectRegion": "asia-east2",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1589462858259
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "webhookematic",
+      "url": "https://github.com/tranbao13/webhookematic"
+    }
+  }
+}
